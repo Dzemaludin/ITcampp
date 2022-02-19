@@ -1,0 +1,33 @@
+body{
+background-color: rgb(46, 35, 35);
+margin: auto;
+
+
+}
+
+h1{
+  text-align: center;
+  border-style: solid; rgb(248, 242, 242); 
+}
+
+
+.ceodiv{
+  width: 88%;
+  margin: auto;
+}
+.cont{
+  width: 200px;
+  /*height: 280px;*/
+  padding: 50px; ;
+  border: 5px inset rgb(248, 242, 242);
+  margin: 30px;
+  display: inline-block;
+  border-radius: 10px;
+  color: rgb(199, 199, 199);
+}
+img{
+  border-radius: 5px;
+  margin-top: 5px;
+  border-right: 10px;
+}
+
