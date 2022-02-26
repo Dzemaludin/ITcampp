@@ -1,0 +1,54 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: beige;
+
+}
+
+.cont{
+    width: 200px;
+    height: 260px;
+    margin: 30px;
+    padding: 5px;
+    border: 2px inset rgb(39, 39, 34);
+    border-radius: 11px;
+    margin-top: 30px;
+    display: inline-block; 
+    text-align: left;
+    
+}
+.prvideo{
+    padding-top: 4px;
+    display: inline;
+}
+.drugideo{
+padding-top: 30px;
+
+}
+h4{
+    padding: 3px;
+    padding-right: 80px;
+    background-color: gray;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-size: small;
+    text-align: end;
+}
+
+.trecideo{
+    padding-top: 30px;
+}
+.plavi{
+
+    background-color: blue;
+}
+.naslov{
+    display: block;
+    text-align: center;
+}
+.sve {
+    margin-left: 99px;
+    margin-top: 80px;
+    
+}
