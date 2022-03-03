@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+   /* background-color: rgb(16, 16, 63);*/
+}
+
+
+.ceodrugidiv{
+    background-color: azure;
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    margin-top:11% ;
+    margin-left: 18%;
+    position: relative;
+    
+}
+
+.levo{
+    padding-top: 30px;
+    margin-right: 308px;
+}
+.malo{
+    margin: 5px 71px 5px 0px;
+}
+.naslovi{
+    padding-bottom: 30px;
+}
+.detalji{
+    padding-bottom: 10px;
+}
+.tekst{
+    padding: 10px 0px 10px 0px;
+}
+.kraj{
+    font-size: 31px;
+}
+.buton{
+    margin-left: 217px;
+    padding: 5px;
+    background-color: blue;
+    border-radius: 2px;
+    font-size:24px ;
+    
+}
+.naslovi p {
+    color: gray;
+}
+#plavaslova{
+    color: blue;
+}

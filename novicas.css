@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   /* width: 100vw;
+    height: 100vh;*/
+    background-color: brown;
+    vertical-align: text-top;
+    display: inline-block;
+}
+
+.levastrana{
+    
+    width: 40%;
+    height: 100%;
+    background-color: blueviolet;
+}
+.desnastrana {
+    width: 15%;
+    height: 100%;
+    float: right;
+    background-color: chocolate;
+}
+.prvakutija , .drugakutija , .trecakutija{
+
+    width: 175px;
+    height: 50px;
+    margin: auto;
+    padding: auto;*/
+    border: 2px solid;
+
+}
+.nestotamo{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    padding: auto;
+    border: 2px solid;
+
+
+}
