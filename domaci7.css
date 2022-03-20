@@ -1,0 +1,535 @@
+*{
+    vertical-align: text-top;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+.zaglavlje{
+    width: 100%;
+    height: 60px;
+    background-color:rgb(49, 41, 41) ;
+    position: fixed;
+    z-index: 1;
+}
+
+.logo img{
+    width: 132px;
+    height: 32px;
+    margin: auto;
+    display: inline-block;
+    position: relative;
+    left: 5px;
+    top: 12px;
+}
+.megasis{
+    width: 180px;
+    height: 60px;
+    background-color: rgb(49, 41, 41);
+    display: inline-block;
+    position: fixed;
+    top: 0px;
+    left: 150px;
+    text-align: center;
+
+}
+.megasis h1{
+    margin-top: 14px;
+    font-size: x-large;
+    color: rgb(110, 111, 110);
+    
+}
+.nacinpregleda{
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 300px;
+    height: 60px;
+
+
+}
+.displej {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-color: rgb(49, 41, 41);
+    position: fixed;
+    color: aquamarine;
+    text-align: center;
+    padding-top: 22px; 
+}  
+.tablet{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-color: rgb(49, 41, 41);
+    position: fixed;
+    right: 180px;
+    color: aquamarine;
+    text-align: center;
+    padding-top: 22px;
+} 
+ .telefon{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-color: rgb(49, 41, 41);
+    position: fixed;
+    right: 120px;
+    color: aquamarine;
+    text-align: center;
+    padding-top: 22px;
+ }
+ .korpa{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-color: rgb(15, 187, 15);
+    position: fixed;
+    right: 60px;
+    color: rgb(218, 202, 207);
+    text-align: center;
+    padding-top: 22px;
+ }
+.iks{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-color: rgb(49, 41, 41);
+    position: fixed;
+    right: 0px;
+    color: red;
+    text-align: center;
+    padding-top: 22px;
+
+}
+.displej:hover , .tablet:hover , .telefon:hover , .korpa:hover , .iks:hover  ,.megasis:hover {
+    background-color:rgb(24, 17, 17) ;
+}
+.ispodzaglavlja{
+    width: 87%;
+    height: 170px;
+    margin: 0px auto 0px auto;
+    border-bottom: 4px solid rgb(90, 5, 5);
+    position: relative;
+    top: 70px;
+    
+}
+
+.ispodzaglavlja1levo{
+    width: 300px;
+    height: 80px;
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.ispodzaglavlja1levo img {
+    margin-top: 14px;
+    margin-left: 14px;
+
+}
+.ispodzaglavlja1desno{
+    width: 300px;
+    height: 80px;
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    left: 584px;
+}
+.singin{
+    width: 122px;
+    height: 26px;
+    display: inline-block;
+    position: relative;
+    left: 158px;
+    border-right: 1px solid;
+    margin-top: 17px;
+    font-size: small;
+    
+}
+.facebook ,.instagram ,.twiter ,.youtube ,.viemo ,.linkedin{
+    width: 46px;
+    height: 46px;
+    display: inline-block;
+    margin: 0px;
+    cursor: pointer;
+    padding-top: 24px;
+    text-align: right;
+    
+}
+.facebook i:hover ,.instagram i:hover ,.twiter i:hover ,.youtube i:hover ,.viemo i:hover ,.linkedin i:hover{
+    transform:  rotateY(360deg);
+    transition: 0.8s;
+}
+.lupa {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    left: 124px;
+    right: 0px;
+    text-align: center;
+    padding-top: 23px;
+    font-size: xx-large;
+    cursor: pointer;
+
+}
+.padajuci{
+    width: 1000px;
+    height: 60px;
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+.padajuci span{
+    margin: 12px;
+    position: relative;
+    top: 20px;
+
+}
+.strana1deo{
+    width: 96%;
+    height: 710px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 90px;
+    /* border-bottom: 4px solid rgb(90, 5, 5); */
+}
+.prvideolevo{
+    width: 45%;
+    height: 700px;
+    display: inline-block;
+    font-size: x-large;
+    
+
+
+}
+.prvideodesno{
+    width: 54%;
+    height: 700px;
+    display: inline-block;
+    margin-left: auto;
+   
+    
+}
+.slika3  img{
+    width: 580px;
+    height: 295px;
+}
+.slova3 h5 ,.slova3 h4 ,.slova3 h1{
+    margin-top: 15px;
+}
+.slova3 h5{
+    color: rgb(143, 22, 22);
+}
+.slika4 ,.slika5 ,.slika6 {
+   width: 99%;
+   height: 200px;
+   margin-top: 18px;
+   
+}
+.slika4 img ,.slika5 img ,.slika6 img{
+    display: inline-block;
+}
+.tekst4 ,.tekst5 ,.tekst6{
+    width: 350px;
+    height: 200px;
+    display: inline-block;
+    
+
+ }
+
+ .slika4 h5, .slika4 h4, .slika4 h2{
+    margin-top: 18px;
+ }
+ .slika5 h5, .slika5 h4, .slika5 h2{
+    margin-top: 18px;
+ }
+ .slika4 h6, .slika6 h4, .slika6 h2{
+    margin-top: 18px;
+ }
+ span:hover{
+     color: rgb(190, 174, 174);
+ }
+ h1:hover , h2:hover , h4:hover , h5:hover{
+    color: rgb(190, 174, 174);
+ } 
+ .strana2deo{
+     width: 78%;
+     height: 600px;
+     position: relative;
+     top: 90px;
+     left: 25px;
+     /* border-top: 4px solid rgb(90, 5, 5); */
+     display: inline-block;
+     border-top: 4px  solid rgb(90, 5, 5);
+     border-bottom: 4px  solid rgb(90, 5, 5);
+     display: inline-block;
+ }
+ .strana2naslov{
+     margin-top: 25px;
+ }
+ .slika7{
+    display: inline-block;
+    position: relative;
+    top: 90px;
+    left: 60px;
+    display: inline-block;
+
+ }
+ .slika4{
+     margin-top: 0px;
+ }
+ 
+ 
+.slika8 ,.slika9 ,.slika10{
+    width: 325px;
+    height: 400px;
+    display: inline-block;
+    margin-left: 30px;
+    position: relative;
+    top: 50px;
+  
+}
+.slika8{
+    margin-left: 0px;
+}
+.slika8 img  ,.slika9 img ,.slika10 img{
+    width: 340px;
+    height: 225px;
+}
+.strana2deo h5 ,.strana2deo h2 ,.strana2deo h4{
+ margin-top: 13px;    
+
+}
+.strana3{
+    width: 96%;
+    height: 620px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 90px;
+}
+.strana3naslov{
+    padding-top: 25px;
+}
+.slika11 ,.slika12 ,.slika13 ,.slika14{
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    margin-left: 17px;
+    position: relative;
+    top: 50px;
+  
+}
+.slika11 img  ,.slika12 img ,.slika13 img ,.slika14 img{
+    width: 300px;
+    height: 200px;
+}
+.strana3 h5 ,.strana3 h2 ,.strana3 h4{
+    margin-top: 13px;    
+   
+}
+.strana4{
+    width: 100%;
+    height: 710px;
+    position: relative;
+    background-color: rgb(16, 14, 14);
+    color: azure;
+}
+.strana4naslov{
+    padding-top: 25px;
+    margin-left: 25px;
+}
+.strana4levo{
+    width: 50%;
+    height: 650px;
+    margin-left: 25px;
+    display: inline-block;
+}
+.strana4levo img {
+    margin-top: 16px;
+}
+
+.strana4desno{
+    width: 46%;
+    height: 650px;
+    display: inline-block;
+}
+.strana4levo img{
+    width: 650px;
+    height: 370px;
+
+}
+.strana4levo h1 ,.strana4levo h4{
+    margin-top: 15px;
+
+}
+.slika16 img{
+    margin-top: 13px;
+}
+
+
+
+.tekst16 ,.tekst17 ,.tekst18 {
+    display: inline-block;
+    width: 53%;
+    height: 200px;
+
+}
+.strana4desno h4{
+    margin-top: 20px;
+}
+.strana4desno h2 {
+    margin-top: 10px;
+}
+.strana5{
+    width: 97%;
+    height: 620px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 90px;
+    border-top: 4px  solid rgb(90, 5, 5);
+}
+.strana5naslov{
+    padding-top: 25px;
+    margin-left: 25px;
+}
+ .slika19 ,.slika20 ,.slika21{
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    margin-left: 17px;
+    position: relative;
+    top: 50px;
+    
+ }
+ .strana5 h5 ,.strana5 h4 ,.strana5 h2{
+    margin-top: 15px;
+}
+ 
+.reklama2{
+    width: 500px;
+    height: 400px;
+    position: relative;
+    top: 120px;
+    padding-left: 260px;
+}
+.strana6{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(252, 246, 240);
+}
+.strana6centar{
+    width: 800px;
+    height: 400px;
+    position: relative;
+    left: 290px;
+    text-align: center;
+    padding-top: 90px;
+}
+input{
+    width: 665px;
+    height: 55px;
+    margin-top: 15px;
+    padding-left: 14px;
+    
+}
+button{
+    width: 100px ;
+    height: 55px;
+    color: white;
+    background-color: red;
+    margin-top: 15px;
+}
+.strana6 h1 ,.strana6 h3 ,.strana6 h4 {
+    margin-top: 15px;
+}
+.strana6 h1 {
+    font-weight: 1000;
+    font-size: xx-large;
+}
+.strana6 h4{
+    font-weight: 200;
+}
+.strana7 {
+    width: 100%;
+    height: 550px;
+    background-color:rgb(31, 27, 27) ;
+    position: relative;
+    top: 0px;
+    padding-top: 100px;
+}
+.prvakartica{
+    width: 200px;
+    height: 300px;
+    margin-left: 130px;
+    color: white;
+    line-height: 40px;
+    display: inline-block;
+    
+}
+.drugakartica{
+    width: 200px;
+    height: 300px;
+    margin-left: 100px;
+    color: white;
+    line-height: 40px;
+    display: inline-block;
+}
+.trecakartica{
+    width: 200px;
+    height: 300px;
+    margin-left: 100px;
+    color: white;
+    line-height: 40px;
+    display: inline-block;
+}
+.cetvrtakartica{
+    width: 200px;
+    height: 300px;
+    margin-left: 100px;
+    color: white;
+    line-height: 40px;
+    display: inline-block;
+}
+.zaglavljee{
+    width: 85%;
+    height: 150px;
+    margin-left: 110px;
+    text-align: center;
+    padding-top: 40px;
+    border-top: 3px solid cornsilk;
+    color: aqua;
+    
+}
+.prvakartica h5:hover ,.drugakartica h5:hover , .trecakartica h5:hover , .cetvrtakartica h5:hover {
+ 
+ text-decoration: underline white;
+cursor: pointer;
+}
+img:hover , h1:hover , h2:hover , h3:hover , h4:hover h5:hover {
+    cursor: pointer;
+}
+button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    font-size: large;
+}
+
+
+
+
+

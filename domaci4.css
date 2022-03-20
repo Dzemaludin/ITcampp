@@ -9,31 +9,34 @@ body {
     height: 100vh;
     text-align: center;
     color: white;
+    overflow: hidden;
 }
 
 .gore {
-    /* height: 99px; */
-    /* width: 1365px;; */
-    /* background-color: lawngreen; */
-    /* margin: auto; */
-    /* padding: 10px; */
-    
+   
+    /* border-bottom: 2px solid; */
+    margin-top: 15px;
+    padding-top: 15px;
+
     
     
 }
 .prvi , .drugi , .treci , .cetvrti{
     display: inline-block;
-    margin: 15px;
+    /* margin: 15px; */
     text-align: center;
     font-size: 10px;
     border-bottom: 2px solid gray ;
+    padding-right: 35px;
+    
     
 
 }
 .prvi{
-    /* margin-left: 488px; */
+   
     color: darkblue;
     border-bottom: 2px solid darkblue ;
+    display: inline-block;
 }
 .sredina{
     height: 300px;
@@ -61,4 +64,12 @@ body {
 }
 .mera{
     padding: 120px;
+}
+svg{
+    height: 20px;
+    width: 25px;
+    display: inline-block;
+}
+h1{
+    display: inline-block;
 }

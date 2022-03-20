@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: top;
+    background-color: burlywood;
+}
+.sve {
+    width: 80%;
+    height: 350px;
+    background-color:burlywood;
+    margin: auto;
+    padding: auto;
+    margin-top: 80px;
+    
+}
+.kutija1 , .kutija2 , .kutija3 , .kutija4{
+  width: 180px;
+  height: 250px;
+  background-color: rgb(255, 235, 210); 
+  margin: 40px;
+  border: 2px solid;
+  border-radius: 6px;
+  display: inline-block;
+  vertical-align: text-top;
+  
+  
+}
+ .slika1 img {
+    width: 160px;
+    height: 90px;
+    border-radius: 6px;
+    margin-left: 10px;
+    
+}
+.slika2 img {
+    width: 160px;
+    height: 90px;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+.slika3 img {
+    width: 160px;
+    height: 90px;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+
+.slika4 img {
+    width: 160px;
+    height: 90px;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+p{font-weight: bold;
+}
+.vreme{
+    font-size: xx-small;
+    font-weight: normal;
+    color: rgb(75, 70, 70);
+}
+p:hover {
+    color: red;
+    background-color: black;
+    
+}
+.kutija2 .ikonica2 div , p {
+    display: inline-block;
+}
+
+.kutija2 .ikonica2 i {
+    margin-left: 27px;
+}
+.kutija3 .ikonica3 div , p {
+    display: inline-block;
+}
+
+.kutija3 .ikonica3 i {
+    margin-left: 27px;
+}
+.kutija4 .ikonica4 div , p {
+    display: inline-block;
+}
+
+.kutija4 .ikonica4 i {
+    margin-left: 27px;
+}
+.kutija1:hover , .kutija2:hover , .kutija3:hover , .kutija4:hover{
+    box-shadow: 0px 0px 20px ;
+    color: darkblue;
+}
+.sve:hover{
+    box-shadow:0px 0px 8px ;
+    color: rgb(85, 41, 41);
+    border: 1px;
+
+}
+.vreme:hover{
+    font-size: 18px;
+}
+i:hover{
+    color: brown;
+}

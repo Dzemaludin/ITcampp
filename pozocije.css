@@ -1,0 +1,38 @@
+.celaslika{
+    width: 779px;
+    height: 360px;
+    border: 1px;
+    background-color: blue;
+    margin-left: 150px;
+    position: fixed;
+    
+}
+.desnog{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+}
+.desnod{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+.sredinaa{
+    position: absolute;
+    right: 49%;
+    top: 45%;
+}
+.levog{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+.levod{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+
+
+   
