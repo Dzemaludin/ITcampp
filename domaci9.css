@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    vertical-align:text-top ;
+    box-sizing: border-box;
+    
+    
+}
+.strana{
+    width: 100%;
+    
+}
+.prvi ,.drugi ,.treci{
+    width: 80%;
+    min-height: 180px;
+    margin: 0 auto;
+    padding-top: 40px;
+    border-bottom: 1px solid black;   
+}
+    
+.space{
+    width: 30%;
+    height: 180px;
+    float: left;  
+}
+.text{
+    width: 99%;
+}
+.space p {
+    font-size: small;
+    color: rgb(75,155,205);
+}

@@ -1,0 +1,12 @@
+.prvi ,.drugi ,.treci{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    border: none;
+}
+h3 {
+    color: red;
+}
+.space {
+    height: auto;
+}

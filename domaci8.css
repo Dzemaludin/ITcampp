@@ -3,6 +3,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    
 
 }
 
@@ -110,6 +111,9 @@
 .displej:hover , .tablet:hover , .telefon:hover , .korpa:hover , .iks:hover  ,.megasis:hover {
     background-color:rgb(24, 17, 17) ;
 
+}
+.sve{
+    background-color: rgb(248,249,250);
 }
 .prvastrana{
     padding-top: 60px;
@@ -242,6 +246,36 @@
     color: rgb(0,0,24);
     margin-bottom: 10px;
 }
+.razmak {
+    width:46%;
+    height: 100px;
+    /* background-color: rgb(58, 94, 129); */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    
+
+}
+.razmak h1{
+    color: rgb(72,119,251);
+}
+.razmak p {
+    color: rgb(145,145,145);
+}
+.trecastrana{
+    width: 80%;
+    height: 1000px;
+    background-color: beige;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+
 
 
 

@@ -163,6 +163,7 @@
 .facebook i:hover ,.instagram i:hover ,.twiter i:hover ,.youtube i:hover ,.viemo i:hover ,.linkedin i:hover{
     transform:  rotateY(360deg);
     transition: 0.8s;
+    color: rgb(184, 42, 42);
 }
 .lupa {
     width: 60px;
