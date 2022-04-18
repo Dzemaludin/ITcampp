@@ -237,6 +237,9 @@
 }
 .kartica:hover{
     border-top:3px solid rgb(72,119,251) ;
+    transform: translateY( -20px);
+    transition: 0.5s;
+
     
 }
 .kartica p {

@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box; 
+    margin: 0px;
+    padding: 0px;
+    vertical-align: text-top;
+
+  }
+  body{
+    background-color:rgb(148, 148, 218);
+}
+
+.sve{
+    width: 90%;
+    height: 700px;
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.levo{
+}
+
+
+.levo_gore{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+
+.levo_gore_desno{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.box{
+    margin-bottom: 10px;
+}
+
+.kutija1{
+    width: 200px;
+    height: 100px;
+    background-color: #198c19;
+}
+
+.kutija2{
+    width: 200px;
+    height: 75px;
+    background-color: #ffff19;
+}
+
+.kutija3{
+    width: 200px;
+    height: 50px;
+    background-color: #66b266;
+}
+
+.levo_dole{
+    width: 500px;
+    height: 100px;
+    background-color: #196919;
+}
+
+.desno_gore{
+    width: 500px;
+    height: 50px;
+    background-color: #196919;
+}
+
+.desno_dole{
+    display: flex;
+    justify-content: space-between;
+}
+
+.desno_dole_levo{
+    width: 200px;
+    height: 300px;
+    margin-top: 10px;
+    background-color: #198c19;
+}
+
+.desno_dole_desno{
+    margin-top: 10px;
+}
+
+.desno_dole_desno_gore{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    background-color: #ffff19;
+}
+
+
+.desno_dole_desno_dole{
+    width: 200px;
+    height: 90px;
+    background-color: #66b266;
+}
+
+ 

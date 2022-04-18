@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    vertical-align: text-top;
+}
+.cela-kutija{
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    background-color: rgb(100, 161, 161);
+    display: grid;
+    grid-template-areas: 
+    "prvideo prvideo prvideo drugideo"
+    "trecideo cetvrtideo cetvrtideo cetvrtideo ";
+
+    grid-template-columns: 75% 25% ;
+    grid-template-rows: auto    ;
+}
+.prvideo{
+    background-color: brown;
+}
+.drugideo{
+    background-color: aqua; 
+}
+.trecideo{
+    background-color: bisque;
+}
+.cetvrtideo{
+    background-color: blue;
+}

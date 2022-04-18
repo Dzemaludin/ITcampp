@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding:0px ;
+    vertical-align: text-top;
+    box-sizing: border-box;
+    
+}
+.babo {
+    display: flex;
+}
+.strana{
+    width: 88%;
+    height: auto;
+    background-color: beige;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+.kartica{
+    width: 220px;
+    height: 330px;
+    background-color: cadetblue;
+    border-radius: 9px;
+}
+.levo{
+    width: 11%;
+    height: 800px;
+    background-color: rgb(192, 192, 7);
+}

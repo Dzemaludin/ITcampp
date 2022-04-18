@@ -1,0 +1,57 @@
+
+.conte{
+    width: 90%;
+    margin: auto;
+    margin-top: 70px;
+    border: 2px solid rgba(150, 212, 212, 0.4);
+    border-radius: 8px;
+    font-family: "Varela Round",sans-serif;
+   
+}
+.zaglavlje{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(75, 71, 145);
+    border-radius: 8px;
+}
+
+
+
+
+
+table{
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th{
+    height: 50px;
+}
+tr{
+    border-top: 1px solid rgba(150, 212, 212, 0.4);
+}
+
+td{
+    text-align: center;
+    height: 50px;
+}
+
+
+tr:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+}
+
+th:nth-child(even),td:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+}
+
+tr:hover{
+    background-color: rgb(32, 143, 143);
+}
+.zuta{
+    color: rgb(184, 184, 74);
+}
+.crvena{
+    color: red;
+}

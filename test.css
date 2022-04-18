@@ -1,0 +1,104 @@
+*{
+   box-sizing: border-box; 
+   margin: 0px;
+   padding: 0px;
+   vertical-align: text-top;
+
+
+}
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color: rgb(35, 129, 35);
+}
+.celastrana{
+    width: 88%;
+    display: flex;
+    gap: 5px;
+    margin: auto;
+    justify-content: center;
+
+}
+.levastrana{
+    width:45%;
+    height:550px ;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+
+    
+    
+
+}
+.desnastrana{
+    width:45%;
+    height:550px ;
+    background-color: aqua;
+}
+.prvi{
+    background-color: coral;
+    width: 100%;
+    height: 110px;
+   
+
+}
+.drugi{
+    background-color: coral;
+    width: 100%;
+    height: 99px;
+    margin-top: 20px;
+
+}
+.treci{
+    background-color: coral;
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+
+}
+.desna3 ,.leva3 {
+    width: 49%;
+    height: 400px;
+}
+.zaglavljelevo{
+    width: 50%;
+    height: 150px;
+    
+}
+.desnogore{
+    width: 99%;
+    height: 130px;
+    background-color: rgb(25, 80, 80);
+}
+.dole{
+    width: 99%;
+    height: 350px;
+    background-color: beige;
+    display: flex;
+    
+}
+.dolelevo{
+    width: 49%;
+    height: 300px;
+    background-color: coral;
+}
+
+
+.doledesno{
+    width: 49%;
+    height: 300px;
+    background-color: blanchedalmond;
+    
+}
+.doledesnotop{
+    width: 49%;
+    height: 180px;
+    background-color: cadetblue;
+}
+
+
+
+
