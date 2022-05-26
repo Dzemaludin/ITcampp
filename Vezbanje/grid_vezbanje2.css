@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    vertical-align: text-top;
+    box-sizing: border-box;
+
+}
+.container{
+    width: 80%;
+    height: 550px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+}
+.levo{
+    width: 48%;
+    /* background-color: goldenrod; */
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 120px 120px 120px 120px;
+    gap: 15px;
+    grid-template-areas:
+     "prva druga"
+     "treca cetvrta"
+     "peta sesta"
+     "sedma sedma"
+    
+}
+.desno{
+    width: 48%;
+    /* background-color: goldenrod; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 120px 120px 120px 120px;
+    gap: 15px;
+    grid-template-areas:
+     "prvi prvi"
+     "drugi treci"
+     "drugi treci"
+     "drugi cetvrti"
+    
+}
+.kocka1{
+    grid-area: prva;
+    background-color: rgb(53, 87, 7);
+    
+}
+.kocka2{
+    grid-area: druga;
+    background-color: rgb(53, 87, 7);
+}
+.kocka3{
+    grid-area: treca;
+    background-color: rgb(53, 87, 7);
+}
+.kocka4{
+    grid-area: cetvrta;
+    background-color: rgb(53, 87, 7);
+}
+.kocka5{
+    grid-area: peta;
+    background-color:rgb(53, 87, 7) ;
+}
+.kocka6{
+    grid-area: sesta;
+    background-color: rgb(53, 87, 7);
+}
+.kocka7{
+    grid-area: sedma;
+    background-color:rgb(53, 87, 7) ;
+}
+.jedan{
+    grid-area: prvi;
+    background-color:rgb(53, 87, 7);
+}
+.dva{
+    grid-area: drugi;
+    background-color: rgb(53, 87, 7);
+}
+.tri{
+    grid-area: treci;
+    background-color: rgb(53, 87, 7);
+}
+.cetiri{
+    grid-area: cetvrti;
+    background-color: rgb(53, 87, 7);
+}

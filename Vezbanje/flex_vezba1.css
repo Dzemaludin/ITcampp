@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    vertical-align: text-top;
+}
+
+.sve{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    background-color: rgb(209, 187, 187);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.leva_strana{
+    width: 48%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+ }
+ 
+.desna_strana{
+    width: 48%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.leva_leva_strana{
+    width:48% ;
+    height: 339px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    
+}
+.leva_desna_strana{
+    width:48% ;
+    height: 339px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 9px;
+    
+ }
+.kutija1{
+    width: 100%;
+    height: 80px;
+    background-color: wheat;
+    
+    
+}
+.kutija2{
+    width: 100%;
+    height: 110px;
+    background-color: rgb(148, 127, 88);
+    
+}
+.kutija3{
+    width: 100%;
+    height: 130px;
+    background-color: rgb(119, 82, 14);
+    
+   
+}
+.leva_dole{
+    width: 99%;
+    height: 100px;
+    background-color: rgb(75, 123, 123);
+}
+.desna_gore{
+    width: 99%;
+    height: 100px;
+    background-color: rgb(78, 149, 149);
+
+}
+.desna_dole{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.desna_dole_leva{
+    width:48% ;
+    height: 340px;
+    background-color: rgb(130, 124, 118);
+
+}
+.desna_dole_desna{
+    width:48% ;
+    height: 340px;
+
+}
+.desna_dole_desna_gore{
+    width: 100%;
+    height: 220px;
+    background-color: rgb(223, 129, 15);
+    margin-bottom: 16px;
+}
+.desna_dole_desna_dole{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(225, 129, 10);
+
+}
+
+
+
+
