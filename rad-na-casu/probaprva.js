@@ -315,4 +315,122 @@
 // }
 
 
+// niz = [1,2,3,4,5]
+
+// // a = niz.pop
+// console.log(niz);
+
+
+// a = [1,2,3]
+// b = []
+// for(i = 0 ; i < a.length; i++){
+//         b.push(a[i])
+// }
+// a.pop();
+// console.log(a,b);
+
+
+
+// myColor = ["Red","Green","White","Black"]
+// str = []
+
+// for(i=1 ; i<myColor.length; i++){
+//     console.log(myColor[i]);
+//     str += "+" + myColor[i]
+// }
+// console.log(str);
+
+
+
+// str = "asdfjkladsfjklasdfjklasdfjkladsfjkladfsjkladsfjkladsf"
+// for(i=0 ; i<str.length; i++){
+
+
+// }
+
+
+
+
+
+// a = Number(prompt("Insert the number"))
+
+// function dashToEven(input) {
+//     result = "";
+//     input = input.toString()
+//     for(i=0; i < input.length; i++) {
+//         if(Number(input[i]) % 2 == 0 && i < (input.length -1)) {
+//             result += input[i] + "-";
+//         } else {
+//             result += input[i]
+//         }
+//     }
+//     return result;
+// }
+
+// console.log(dashToEven(a))
+
+
+
+
+// unos = 0255678
+// res = ""
+
+// for(i=0; i < input.length; i++){
+//     console.log(unos[i]) ;
+//     res += unos[i]
+//     if (unos[i] % 2 == 0 && unos[i +1]% === 0)
+// }
+
+
+
+// numbers = [0,4,6,8,32,843];
+// sum = 0;
+// product = 1;
+// for(i = 0; i < numbers.length; i++){
+//     number = numbers[i]
+//     sum += number
+//     if(number != 0) {
+//     product *= number
+//     }
+// }
+// console.log(sum)
+// console.log(product);
+
+// a = [ "asada",2,4,5, false, null, -22 ,undefined ,"" ,44]
+// b = []
+// for(el of a ) {
+//     if (el){
+//         b.push(el)
+//     }
+// }
+// console.log(b);
+
+// a = [1,2,3]
+// b = [2,30,1, 1]
+// c = a.concat(b)
+// d = []
+
+// for(el of c){
+//     if(!d.includes(el)){
+//         d.push(el)
+//     }
+// }   
+// console.log(d); 
+
+//
+//
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
 
